@@ -346,3 +346,12 @@ footer {
   footer span,a{
     padding-right: 7px;
   }
+  /*
+=============== 
+hero
+===============
+*/
+.hero{
+  background: url(../assets/main.jpeg) center/cover no-repeat;
+  height: 40vh ;
+}

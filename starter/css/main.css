@@ -459,6 +459,11 @@ recipe body
 .tag p{
   margin-top: 0.25rem;
 }
+.tag:hover{
+  background-color: var(--grey-200);
+  transition: var(--transition);
+
+}
   /*
 =============== 
 featured
@@ -655,7 +660,7 @@ Tags Page
   padding-bottom: 3rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.tag {
+.tagtemp {
   background: var(--grey-500);
   border-radius: var(--borderRadius);
   text-align: center;
@@ -663,13 +668,13 @@ Tags Page
   transition: var(--transition);
   padding: 0.75rem 0;
 }
-.tag:hover {
+.tagtemp:hover {
   background: var(--primary-500);
 }
-.tag h5,
-.tag p {
+.tagtemp h5,
+.tagtemp p {
   margin-bottom: 0;
 }
-.tag h5 {
+.tagtemp h5 {
   font-weight: 600;
 }
